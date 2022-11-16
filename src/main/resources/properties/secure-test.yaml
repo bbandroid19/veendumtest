@@ -1,0 +1,17 @@
+salesforce:
+  username: "![en34s2s4uxa4QoJkgCnnPmzXDAVLLYYnS4qQbYwK99s=]"
+  password: "![0F0AZHTDi7WEbw+9BPnB+Q==]"
+  securitytoken: "![vWwFpcU2tMF8ZoQuoVxRRKOa7Hdh7PbJRSdHNXHOhnk=]"
+
+
+      
+tls:
+  keystore:
+    password: "![TjrgNiKb/sw=]"
+    type: "pkcs12"
+    alias: "server"
+    path: "certs/apix-salesforce-sapi-test.p12"
+    
+    
+api:
+ id: "12345"     
