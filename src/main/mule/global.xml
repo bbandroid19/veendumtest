@@ -4,7 +4,7 @@
         <salesforce:basic-connection username="${secure::salesforce.username}" password="${secure::salesforce.password}" securityToken="${secure::salesforce.securitytoken}" />
     </salesforce:sfdc-config>
     <http:listener-config name="apiHttpListenerConfig" doc:name="HTTP_Listener_config" doc:id="0d6988e9-665a-440c-9f8b-3a2c1edd6faf">
-        <http:listener-connection host="0.0.0.0" port="${api.port}" protocol="HTTPS" tlsContext="tlsContext"  />
+        <http:listener-connection host="0.0.0.0" port="${api.https.port}" protocol="HTTPS" tlsContext="tlsContext"  />
     </http:listener-config>
 <apikit:config name="apixSalesforceSapiConfig" api="resource::b0beec90-c6cc-4c36-8f7c-ef1f8f91253b:veendumtest:1.0.5:raml:zip:veendumtest.raml" outboundHeadersMapName="outboundHeaders" httpStatusVarName="httpStatus" />    
 <tls:context name="tlsContext" doc:name="TLS Context" doc:id="b911dd3c-37d2-4456-9db2-e642c667b755">
