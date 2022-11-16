@@ -4,5 +4,5 @@ api:
   version: "${project.version}"
   #spec: "resource::${api.groupId}:${api.artifactId}:${api.version}:oas:zip:api.json"
   majorVersion: "v1"
-  port: "8081"
+  port: "8082"
   listenerConfig: "apiHttpListenerConfig"
